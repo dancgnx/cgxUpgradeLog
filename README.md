@@ -4,7 +4,7 @@ WARNING: USE AT YOUR OWN RISK
 
 Produce Device Upgrade log
 
-Instructions:
+# Instructions:
 
 * Install python3
 * Install cloudgenix python sdk : pip3 install cloudgenix
@@ -20,6 +20,8 @@ cgxUpgradeLog.py looks for the following for AUTH, in this order of precedence:
 * AUTH_TOKEN environment variable
 * Interactive prompt for user/pass (if one is set, or all other methods fail.)
 
-Exmpale:
-```
-```
+# note:
+
+The user role should be security admin or higher.
+
+13685
