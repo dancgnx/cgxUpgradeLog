@@ -22,6 +22,7 @@ cgxUpgradeLog.py looks for the following for AUTH, in this order of precedence:
 
 # note:
 
-The user role should be security admin or higher.
+* The user role should be security admin or higher.
+* The timestamp is at the local time zone of the one who is running the script.
 
 13685
